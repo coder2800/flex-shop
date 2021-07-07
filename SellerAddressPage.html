@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seller_Address</title>
+    <link rel="stylesheet" href="SellerAddressPage.css">
+</head>
+
+<body>
+    <div class="container" style="background-color: #f2f2f2;">
+        <div class="col-1">
+            <h1 style="color: brown;">Flex<br>...Shop</h1>
+            <h2 style="color: orange;">Sell the Products here...</h2>
+            <div class="container1">
+                <nav>
+                    <ul>
+                        <li><a href="SellerPage1.html" style="color: brown;">Home</a></li>
+                        <li><a href="Devansh-new/profile_page.html" style="color: brown;">Orders</a></li>
+                        <!-- <li><a href="" style="color: brown;">Contact Us</a></li> -->
+                        <li><a href="Devansh-new/profile_page.html" style="color: brown;">Profile</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="username">
+                <img src="assets/ProfileIcon.png" alt="">
+                <div>Username</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------------------------navigation-bar--------------------------------------- -->
+    <div class="bg">
+        <img src="assets/address.png" style="width:100%;" alt="address">
+        <div class="card">
+            <h1 style="color: black; margin-bottom: 20px;border-bottom: 0.1px solid;">Give your warehouse address</h1>
+            <div>
+                <form class="form" id="form">
+                    <label for="country">Country / Region</label>
+                    <select id="country" name="country">
+                        <option value="India">India</option>
+                        <option value="usa">USA</option>
+                        <option value="australia">Australia</option>
+                    </select>
+                    <input type="text" id="pin" name="pin code" placeholder="Pin Code*" required autocomplete="off">
+                    <div class="cvc">
+                        <input type="text" id="date" name="lastname" placeholder="City / District*" required>
+                        <input type="text" id="cvv" name="lastname" placeholder="State*" required>
+                    </div>
+                    <input type="text" id="fname" name="town" placeholder="Locality / Town*" required>
+                    <input type="text" id="fname" name="address"
+                        placeholder="Address (House No, Building, Street, Area)*" required>
+                    <button id="submit">Add Address</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-image: linear-gradient(to right, brown, rgb(223, 223, 25));
+    border-radius: 0;
+    position: relative;
+}
+
+.container .col-1 {
+    display: flex;
+    /* justify-content: center; */
+}
+
+div {
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px;
+}
+
+.navbar {
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    width: 95%;
+    background-image: linear-gradient(to right, #3ab5b0 0%, #3d99be 31%, #724f94 100%);
+    background-repeat: no-repeat;
+    padding: 30px 30px;
+    padding-top: 25px;
+    position: fixed;
+    top: 0;
+}
+
+.container1 {
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    font-weight: bold;
+}
+
+.shopName {
+    padding: 0px;
+}
+
+.logo {
+    padding: 0 px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+    margin-right: 130px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container1 {
+    max-width: 1000px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#username img {
+    margin-left: 28%;
+    height: 40px;
+}
+
+#username {
+    position: absolute;
+    right: 6%;
+    top: 18px;
+    padding: 0;
+    margin: 0;
+}
+
+/* --------------------------------navigation-bar----------------------------------------- */
+
+/* ----------------container2-start--------------------------- */
+
+.container2 {
+    position: relative;
+    text-align: center;
+}
+
+.container2 img {
+    height: 1000px;
+    width: 95%;
+    /* height: 50%; */
+    margin: 31px;
+}
+
+.container2 .card {
+    position: absolute;
+    top: 60px;
+    left: 30%;
+    height: 50%;
+    width: 40%;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 54px;
+}
+
+#options {
+    position: absolute;
+    top: 20px;
+    left: 39%;
+    background-color: rgb(29, 153, 202);
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* -------------------Icons-start--------------------------- */
+
+/* .icon img {
+    width: 20px;
+} */
+
+/* .icons {
+    display: grid;
+    grid-auto-flow: row;
+} */
+
+figure {
+    border: 1px #cccccc solid;
+    padding: 4px;
+    margin: auto;
+    cursor: pointer;
+}
+
+figcaption {
+    background-color: black;
+    color: white;
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+}
+
+button {
+    width: 100%;
+    background-color: #ee992a;
+    color: white;
+    padding: 14px 40px;
+    margin: 50px 80%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #ee7646;
+}
+
+/* --------------------------------footer-start------------------------------------------ */
+
+.footer {
+    position: absolute;
+    top: 160%;
+    border-radius: 0%;
+    margin-top: 3%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 12%;
+    background-color: #343a40;
+}
+
+.footer ul {
+    list-style-type: none;
+}
+
+.footer ul li {
+    display: inline-block;
+    padding: 115px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0px;
+    /* text-decoration: underline; */
+    /* border-bottom: 1px solid white; */
+}
+
+.footer a {
+    text-decoration: none;
+}

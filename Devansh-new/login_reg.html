@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Sign in and Sign up</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="forms-container">
+            <div class="signin-signup">
+                <form id="login" class="sign-in-forms">
+                    <h2 class="title">Sign in</h2>
+                    <div class="input-field">
+                        <i class="fas fa-user"></i>
+                        <input type="email" id="loginID" placeholder="Email-Id" required>
+                    </div>
+                    <div class="input-field">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" id="loginPW" placeholder="Password" required>
+                    </div>
+                    <button class="btn solid" id="signin" type="button" onclick="loginUser()">Login</button>
+                </form>
+
+                <form id="signUp" class="sign-up-forms">
+                    <h2 class="title">Sign up</h2>
+                    <div class="input-field">
+                        <i class="fas fa-user"></i>
+                        <input type="text" id="name" placeholder="Username">
+                    </div>
+                    <div class="input-field">
+                        <i class="fas fa-envelope"></i>
+                        <input type="email" id="email" placeholder="Email-Id">
+                    </div>
+                    <div class="input-field">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" id="pw" placeholder="Password">
+                    </div>
+                    <button class="btn solid" id="signup" type="button" onclick="signup_bs()">Sign up</button>
+                </form>
+            </div>
+        </div>
+        <div class="panels-container">
+            <div class="panel left-panel">
+                <div class="content">
+                    <h3>New here ?</h3>
+                    <button class="btn transparent" id="sign-up-btn">
+                        Sign up
+                    </button>
+                </div>
+            </div>
+            <div class="panel right-panel">
+                <div class="content">
+                    <h3>One of us ?</h3>
+                    <button class="btn transparent" id="sign-in-btn">
+                        Sign in
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="login_reg.js"></script>
+</body>
+
+</html>

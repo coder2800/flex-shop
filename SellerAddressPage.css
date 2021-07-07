@@ -1,0 +1,149 @@
+* {
+    /* height: 100%;
+    width: 100%; */
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-image: linear-gradient(to right, brown, rgb(223, 223, 25));
+    border-radius: 0;
+    position: relative;
+    /* display: fixed; */
+}
+
+.container .col-1 {
+    display: flex;
+    /* justify-content: center; */
+}
+
+div {
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px;
+}
+
+.navbar {
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    width: 95%;
+    background-image: linear-gradient(to right, #3ab5b0 0%, #3d99be 31%, #724f94 100%);
+    background-repeat: no-repeat;
+    padding: 30px 30px;
+    padding-top: 25px;
+}
+
+.container1 {
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    font-weight: bold;
+}
+
+.shopName {
+    padding: 0px;
+}
+
+.logo {
+    padding: 0 px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+    margin-right: 130px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container1 {
+    max-width: 1000px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#username img {
+    margin-left: 28%;
+    height: 40px;
+}
+
+#username {
+    position: absolute;
+    right: 6%;
+    top: 18px;
+    padding: 0;
+    margin: 0;
+}
+
+/* --------------------------------navigation-bar----------------------------------------- */
+
+.bg {
+    position: relative;
+    text-align: center;
+    color: white;
+    /* margin: 8px; */
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 45%;
+    height: 70%;
+    position: absolute;
+    top: 40px;
+    right: 16px;
+}
+
+input[type=text], select {
+    font-size: 17px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#submit {
+    display: block;
+    width: 100%;
+    background-color: #ee992a;
+    color: white;
+    padding: 14px 200px;
+    margin: 8px 0px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: #ee7646;
+}
+
+.cvc {
+    display: flex;
+    padding: 0px;
+}
+
+label {
+    color: #000;
+    display: flex;
+    justify-content: flex-start;
+    /* font-weight: bold; */
+    font-size: 19px;
+}
