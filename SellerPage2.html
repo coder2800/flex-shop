@@ -18,9 +18,9 @@
                 <nav>
                     <ul>
                         <li><a href="SellerPage1.html" style="color: brown;">Home</a></li>
-                        <li><a href="Devansh-new/profile_page.html" style="color: brown;">Orders</a></li>
+                        <li><a href="Devansh-new/order_page.html" style="color: brown;">Orders</a></li>
                         <!-- <li><a href="" style="color: brown;">Contact Us</a></li> -->
-                        <li><a href="Devansh-new/profile_page.html" style="color: brown;">Profile</a></li>
+                        <li><a href="Devansh-new/order_page.html" style="color: brown;">Profile</a></li>
                     </ul>
                 </nav>
             </div>
@@ -74,37 +74,44 @@
                 <li>
                     <h3>Any physical damages?</h3>
                     <div>
-                        <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
+                        <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A"
+                            onclick="Q11()" />
                         <label for="question-1-answers-A"> Yes </label>
                     </div>
                     <div>
-                        <input type="radio" name="question-1-answers" id="question-1-answers-B" value="B" />
+                        <input type="radio" name="question-1-answers" id="question-1-answers-B" value="B"
+                            onclick="Q12()" />
                         <label for="question-1-answers-B"> No</label>
                     </div>
                 </li>
                 <li>
                     <h3>Do you have valid Bill?</h3>
                     <div>
-                        <input type="radio" name="question-2-answers" id="question-1-answers-A" value="A" />
+                        <input type="radio" name="question-2-answers" id="question-1-answers-A" value="A"
+                            onclick="Q21()" />
                         <label for="question-2-answers-A"> Yes </label>
                     </div>
                     <div>
-                        <input type="radio" name="question-2-answers" id="question-1-answers-B" value="B" />
+                        <input type="radio" name="question-2-answers" id="question-1-answers-B" value="B"
+                            onclick="Q22()" />
                         <label for="question-2-answers-B"> No</label>
                     </div>
                 </li>
                 <li>
                     <h3>What is the overall condition of your product?</h3>
                     <div>
-                        <input type="radio" name="question-3-answers" id="question-1-answers-A" value="A" />
+                        <input type="radio" name="question-3-answers" id="question-1-answers-A" value="A"
+                            onclick="Q31()" />
                         <label for="question-3-answers-A"> Good </label>
                     </div>
                     <div>
-                        <input type="radio" name="question-3-answers" id="question-1-answers-B" value="B" />
+                        <input type="radio" name="question-3-answers" id="question-1-answers-B" value="B"
+                            onclick="Q32()" />
                         <label for="question-3-answers-B"> Average</label>
                     </div>
                     <div>
-                        <input type="radio" name="question-3-answers" id="question-1-answers-C" value="C" />
+                        <input type="radio" name="question-3-answers" id="question-1-answers-C" value="C"
+                            onclick="Q33()" />
                         <label for="question-3-answers-C"> Below Average</label>
                     </div>
                     <a href="SellerAddressPage.html">
@@ -116,20 +123,31 @@
                 <div class="cartImg">
                     <img src="assets/carICON.jpg" alt="cart-img">
                 </div>
-                <h3>Device Evaluation</h3>
+                <h2 style="color: brown; margin-top:3%;">Device Evaluation</h2>
+
+                <h3 id="Q11"></h3>
+                <h3 id="Q12"></h3>
+                <h3 id="Q21"></h3>
+                <h3 id="Q22"></h3>
+                <h3 id="Q31"></h3>
+                <h3 id="Q32"></h3>
+                <h3 id="Q33"></h3>
+
             </div>
         </div>
-    </div>
-    <div class="footer">
+        <div class="footer">
 
-        <ul>
-            <li><a href="" style="color: white; font-weight:bold">About</a></li>
-            <li><a href="Devansh-new/contactdetails.html" style="color: white; font-weight:bold">Contact</a></li>
-            <li><a href="" style="color: white; font-weight:bold">Privacy</a></li>
-            <li><a href="" style="color: white; font-weight:bold">T&C</a></li>
-        </ul>
+            <ul>
+                <li><a href="" style="color: white; font-weight:bold">About</a></li>
+                <li><a href="Devansh-new/contactdetails.html" style="color: white; font-weight:bold">Contact</a></li>
+                <li><a href="" style="color: white; font-weight:bold">Privacy</a></li>
+                <li><a href="" style="color: white; font-weight:bold">T&C</a></li>
+            </ul>
 
+        </div>
     </div>
+
+    <script src="SellerPage2.js"></script>
 </body>
 
 </html>
