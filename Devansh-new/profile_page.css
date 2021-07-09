@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    /* background-image: linear-gradient(to right, rgb(58 179 177) 0%, #9fc7fc 100%); */
+    background-image: linear-gradient(to right, rgb(58 179 177) 0%, #9fc7fc 100%);
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
     font-family: Arial;
@@ -21,7 +21,7 @@ body {
 }
 
 .navbar {
-    margin: 0px;
+    margin: 5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,10 +32,6 @@ body {
     padding: 30px 30px;
     padding-top: 25px;
     position: relative;
-    /* position: fixed; */
-    overflow: hidden;
-    top: 0;
-    margin-top: 0;
 }
 
 .cart {
@@ -130,120 +126,84 @@ div {
     background-color: #f2f2f2;
     padding: 10px;
 }
-
-#username img {
+#username img{
     margin-left: 28%;
-    height: 40px;
+    height:40px;
 }
-
-#username {
-    position: absolute;
+#username{
+    position:absolute;
     right: 10%;
     top: 18px;
-    padding: 0;
+    padding:0;
     margin: 0;
     color: white;
 }
 
-div {
-    border-radius: 5px;
-    /* background-color: #f2f2f2; */
-    /* padding: 3px; */
-}
-
-button {
-    cursor: pointer;
-}
-
 /* ----------------------Navigation-over------------------------------------------ */
 
-.grid-container {
-    background-color: rgb(233, 224, 224);
-    width: 100%;
-}
-
-.grid-container h2 {
-    padding: 1%;
-    text-align: center;
-    color: white;
-    background-color: rgb(199, 158, 158);
-}
-
-.inside-grid {
-    display: grid;
-    /* justify-content: space-around; */
-    align-items: center;
-}
-
-.inside-grid .items {
-    margin: 1%;
-    margin-left: 22%;
-    /* padding: 5%; */
-    width: 50%;
-    background-color: white;
-    text-align: center;
-}
-
-.inside-grid img {
-    width: 50%;
-}
-
-.MRP {
-    display: flex;
-    justify-content: center;
-    padding: 1.6%;
-}
-
-.brand-name {
-    font-size: 110%;
+.button1{
+    padding: 0px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
     cursor: pointer;
 }
-
-.brand-name:hover {
-    color: rgb(252, 99, 99);
+div {
+    border-radius: 5px;
 }
-
-.brand-price {
-    background-color: rgb(180, 92, 92);
-    color: white;
-    padding: 3px;
-    margin-right: 8px;
-}
-
-.price {
-    padding: 3px;
-}
-
-/* --------------------------footer------------------------------------------- */
-
-.footer {
-    /* position: absolute;
-    top: 176%; */
-    border-radius: 0%;
-    margin-top: 0.2%;
-    margin-bottom: 0%;
-    margin-left: 0.1%;
+.profile_page{
+    height: 83vh;
+    width: 1350px;
+    margin: 7px;
     display: flex;
+    background-color: aqua;
+}
+.side_channel{
+    border: 1px solid black;
+    background-image: linear-gradient(-225deg, #9d98ff 0%, #75c0f7 48%, #22E1FF 100%);
+    background-repeat: no-repeat;
+    height: 83vh;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+.main_content{
+    padding: 30px;
+    border: 1px solid black;
+    background-image: linear-gradient(-225deg, #22E1FF 0%, #55adec 48%, #625EB1 100%);
+    background-repeat: no-repeat;
+    height: 73vh;
+    width: 1000px;
+    display: grid;
+    gap: 25px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
     align-items: center;
-    width: 99%;
-    height: 12%;
-    background-color: #343a40;
 }
-
-.footer ul {
-    list-style-type: none;
+.side_contents{
+    text-align: center;
+    /* background-color: white; */
+    padding: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;   
+    cursor: pointer;
+    border-radius: 0px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
 }
-
-.footer ul li {
-    display: inline-block;
-    padding: 110px;
-    padding-top: 17px;
-    padding-bottom: 17px;
-    margin: 0px;
-    /* text-decoration: underline; */
-    /* border-bottom: 1px solid white; */
+.side_contents:hover{
+    background-color: darkblue;
+    color:white
 }
-
-.footer a {
-    text-decoration: none;
+.main{
+    background-color: white;
+    height: 200px;
+    width: 400px;
+    background: rgba( 255, 255, 255, 0.05 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 0.0px );
+    -webkit-backdrop-filter: blur( 0.0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }

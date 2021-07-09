@@ -2,6 +2,7 @@ const sign_in_btn = document.querySelector("#sign-in-btn");
 const sign_up_btn = document.querySelector("#sign-up-btn");
 const container = document.querySelector(".container");
 
+const apiUrl = "http://localhost:8000";
 
 sign_up_btn.addEventListener("click", () => {
   container.classList.add("sign-up-mode");
@@ -10,8 +11,6 @@ sign_up_btn.addEventListener("click", () => {
 sign_in_btn.addEventListener("click", () => {
   container.classList.remove("sign-up-mode");
 });
-
-const apiUrl = "http://localhost:8000";
 
 const body = document.querySelector("body");
 
@@ -38,7 +37,6 @@ signInForm.addEventListener("submit", (event) => {
   })
     .then((res) => res.json())
     .then((data) => {
-      console.log(data);
       const { token } = data;
       if (token) {
         localStorage.setItem("jwt", token);
