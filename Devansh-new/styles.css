@@ -14,7 +14,7 @@ body, input {
   min-height: 100vh;
   background-color: #fff;
   overflow: hidden;
-  background-image: linear-gradient(rgb(170, 170, 248) 0%,rgb(209, 209, 252) 100%);
+  background-color: orange;
 }
 
 .forms-container {
@@ -93,22 +93,22 @@ form.sign-up-forms {
   line-height: 1;
   font-weight: 600;
   font-size: 1.1rem;
-  color: black;
+  color: #333;
 }
 
 .input-field input::placeholder {
-  color: black;
+  color: #bbb9bd;
   font-weight: 500;
 }
 
 .btn {
   width: 150px;
-  background-color: white;
+  background-color: #a17bd1;
   border: none;
   outline: none;
   height: 49px;
   border-radius: 49px;
-  color: black;
+  color: #fff;
   text-transform: uppercase;
   font-weight: 600;
   margin: 10px 0;
@@ -117,8 +117,7 @@ form.sign-up-forms {
 }
 
 .btn:hover {
-  background-color: darkblue;
-  color: white;
+  background-color: #371c59;
 }
 
 .panels-container {
@@ -139,7 +138,7 @@ form.sign-up-forms {
   top: -10%;
   right: 48%;
   transform: translateY(-50%);
-  background-image: linear-gradient(-45deg, rgb(247, 246, 252) 0%, rgb(188, 247, 220) 100%);
+  background-image: linear-gradient(-45deg, rgb(117, 35, 35) 0%, rgb(117, 35, 35) 100%);
   transition: 1.8s ease-in-out;
   border-radius: 50%;
   z-index: 6;
@@ -171,7 +170,7 @@ form.sign-up-forms {
 }
 
 .panel .content {
-  color: black;
+  color: #fff;
   transition: transform 0.9s ease-in-out;
   transition-delay: 0.6s;
 }
@@ -194,8 +193,7 @@ form.sign-up-forms {
 }
 
 .btn.btn.transparent:hover {
-  background-color: darkblue;
-  color:white;
+  background-color: #371c59;
 }
 
 .right-panel .image, .right-panel .content {
@@ -244,7 +242,7 @@ form.sign-up-forms {
 .otp-value-btn i {
   text-align: center;
   line-height: 55px;
-  color: blue;
+  color: #a17bd1;
   transition: 0.5s;
   font-size: 1.1rem;
 }
@@ -259,7 +257,7 @@ form.sign-up-forms {
   margin-top: 2%;
   margin-left: 45%;
   width: 150px;
-  background-color: blue;
+  background-color: #a17bd1;
   border: none;
   border-radius: 55px;
   outline: none;
@@ -272,7 +270,7 @@ form.sign-up-forms {
 }
 
 .otp-btn:hover {
-  background-color: darkblue;
+  background-color: #371c59;
 }
 
 /*ANIMATION*/
