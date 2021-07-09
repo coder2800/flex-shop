@@ -11,9 +11,9 @@ body {
     overflow-x: hidden;
 }
 
-.container {
-    height: 99vh;
-    width: 100%;
+.container2 {
+    height: 70vh;
+    width: 70vh;
     /* background-image: linear-gradient(to right, white 0%, #9fc7fc 100%); */
     /* display: grid;
     grid-template-columns: 1fr 1fr;
@@ -26,7 +26,7 @@ body {
     justify-content: space-between;
     align-items: center;
     height: 40px;
-    width: 95%;
+    width: 96%;
     background-image: linear-gradient(to right, #3ab5b0 0%, #3d99be 31%, #724f94 100%);
     background-repeat: no-repeat;
     padding: 30px 30px;
@@ -159,13 +159,8 @@ body {
     font-family: Arial;
 }
 .container2 {
-<<<<<<< HEAD
     background-color: white;
     height: 70vh;
-=======
-    background-color: rgb(149, 149, 255);
-    height: 100vh;
->>>>>>> 3151fe58cfae685789e01aee890e0c3703d32c08
     width: 100vw;
     display: flex;
     flex-wrap: wrap;
@@ -189,19 +184,11 @@ body {
 
 .jugaad {
     color: darkblue;
-    /* padding-top: 10px; */
-    /* padding-bottom: 70px; */
-    /* padding-left: 10px; */
-    /* padding-right: 0px; */
     font-size: 250%;
     background-color: #dffbfd;
-    /* margin: 2% auto; */
     text-align: center;
-    /* width: 80%; */
     height: 10vh;
     padding-top: 3%;
-    /* font-size:30 */
-    /* align-self: flex-end; */
 }
 
 .contentinbuyerclass {
@@ -237,7 +224,7 @@ button:hover {
     background-image: linear-gradient(to right, white 0%, #dffbfd 100%);
     font-size: 20px;
     font-weight: bold;
-    height: 100vh;
+    height: 73vh;
     width: 49.9vw;
     color: #371c59;
     display: flex;
@@ -248,7 +235,7 @@ button:hover {
 
 .seller {
     background-image: linear-gradient(to right, #dffbfd 0%, #9fc7fc 100%);
-    height: 100vh;
+    height: 73vh;
     width: 50vw;
     font-size: 20px;
     font-weight: bold;
@@ -319,14 +306,9 @@ button:hover {
 /* --------------------------------footer-start------------------------------------------ */
 
 .footer {
-<<<<<<< HEAD
     /* position: absolute; */
-=======
-    position: absolute;
-    top: 100%;
->>>>>>> 3151fe58cfae685789e01aee890e0c3703d32c08
     border-radius: 0%;
-    margin-top: 3%;
+    margin-top: 1.5%;
     margin-bottom: 0%;
     margin-left: 0%;
     display: flex;
