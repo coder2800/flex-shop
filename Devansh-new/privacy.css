@@ -1,0 +1,20 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(240, 240, 240);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150%;
+    line-height: 1.6;
+}
+.heading{
+    text-align: center;
+}
+.container{
+    padding: 0.3%;
+    background: white;
+    height: 173vh;
+    width: 70vw;
+    margin-left: 15%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
