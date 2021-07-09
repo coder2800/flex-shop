@@ -1,5 +1,5 @@
 function brand1() {
-    // window.location.href = "../ProductPage.html";
+    window.location.href = "../ProductPage.html";
     var store1 = document.getElementById('brand1');
     console.log(store1);
     document.getElementById('name').innerHTML = store1;

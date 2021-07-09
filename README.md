@@ -49,7 +49,7 @@ If the user clicks on `buy now` button then he is directed to the buyer homepage
 
 On choosing the category of products which the user wants to buy, the user will be directed to the page of that category:
 
-![productPage](/Devansh-new/images%20(1)/Screenshot%20(230).png)
+![]()
 ---
 
 On choosing the products he wants to buy, the user is directed to the cart page:
@@ -77,17 +77,6 @@ After this the user will be directed to the payment page:
 
 ![paymentPage](/Devansh-new/images%20(1)/Screenshot%20(227).png)
 ---
-
-There is also an about us page:
-
-![aboutPage](/Devansh-new/images%20(1)/Screenshot%20(233).png)
----
-
-And also a contact us page:
-
-![contactUs](/Devansh-new/images%20(1)/Screenshot%20(232).png)
----
-
 
 and many more pages...
 ### Contributors:
