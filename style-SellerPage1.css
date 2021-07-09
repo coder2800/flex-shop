@@ -109,7 +109,7 @@ a {
     position: absolute;
     top: 60px;
     left: 30%;
-    height: 50%;
+    /* height: 50%; */
     width: 40%;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
     display: flex;
@@ -169,6 +169,10 @@ button {
 button:hover {
     background-color: #ee7646;
 }
+
+/* #headphone {
+    border: 1.6px solid brown;
+} */
 
 /* --------------------------------footer-start------------------------------------------ */
 

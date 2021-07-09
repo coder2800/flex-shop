@@ -310,15 +310,15 @@ table p {
 /* --------------------------------footer-start------------------------------------------ */
 
 .footer {
-    /* position: absolute;
-    top: 176%; */
+    position: absolute;
+    top: 145%;
     border-radius: 0%;
-    margin-top: 32%;
+    margin-top: 3%;
     margin-bottom: 0%;
-    margin-left: 0.1%;
+    margin-left: 0%;
     display: flex;
     align-items: center;
-    width: 99%;
+    width: 100%;
     height: 12%;
     background-color: #343a40;
 }
@@ -329,9 +329,9 @@ table p {
 
 .footer ul li {
     display: inline-block;
-    padding: 110px;
-    padding-top: 17px;
-    padding-bottom: 17px;
+    padding: 115px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     margin: 0px;
     /* text-decoration: underline; */
     /* border-bottom: 1px solid white; */
