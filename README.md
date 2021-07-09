@@ -81,8 +81,8 @@ After this the user will be directed to the payment page:
 and many more pages...
 ### Contributors:
 ---
-- Prashant Kumar
-- Devansh Agarwal 
+- Prashant Kumar (2020IMG-050)
+- Devansh Agarwal (2020IMG-020)
 
 
 
