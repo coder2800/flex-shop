@@ -1,4 +1,5 @@
 function mobile() {
+<<<<<<< HEAD
     window.location.href = './cate-ProductPage.html';
 
     document.getElementById('brand-img1').src = './assets/poco1.jpg';
@@ -57,3 +58,16 @@ function cloth() {
 
 }
 
+=======
+    window.location.href = "./cate-ProductPage.html";
+}
+function laptop() {
+    window.location.href = "./cate-ProductPage.html";
+}
+function mobile() {
+    window.location.href = "./cate-ProductPage.html";
+}
+function mobile() {
+    window.location.href = "./cate-ProductPage.html";
+}
+>>>>>>> 0281a3d6e7b146e89505aea33a547f094e1119c7
