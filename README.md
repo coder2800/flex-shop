@@ -107,11 +107,5 @@ For doing this, we require some npm modules like:<br><br>
 bcrypt is used to hashing the password and store it into database.
 
 
-### Contributors:
----
-- Prashant Kumar (2020IMG-050)
-- Devansh Agarwal (2020IMG-020)
-
-
 
 
