@@ -31,61 +31,61 @@ npm install
 Firstly the user will have to `sign-up` to the website.
 The `sign-up` page looks like this:
 
-![SignUpPage](/Devansh-new/images%20(1)/Screenshot%20(231).png)
+![SignUpPage](assets/Screenshot%20(231).png)
 ---
 
 
 After signing up the user will be directed to the home page of the website:
 
-![HomePage](/Devansh-new/images%20(1)/Screenshot%20(223).png)
+![HomePage](assets/Screenshot%20(223).png)
 ---
 
 Now the user may choose to click on the `buy now` button or the `sell now` button depending on his needs:
 
 If the user clicks on `buy now` button then he is directed to the buyer homepage:
 
-![buyerHomePage](/Devansh-new/images%20(1)/Screenshot%20(222).png)
+![buyerHomePage](assets/Screenshot%20(222).png)
 ---
 
 On choosing the category of products which the user wants to buy, the user will be directed to the page of that category:
 
-![productPage](/Devansh-new/images%20(1)/Screenshot%20(230).png)
+![productPage](assets/Screenshot%20(230).png)
 ---
 
 On choosing the products he wants to buy, the user is directed to the cart page:
 
-![cartPage](/Devansh-new/images%20(1)/Screenshot%20(228).png)
+![cartPage](assets/Screenshot%20(228).png)
 ---
 
 
 If the user clicks `Sell now` button then he is directed to the seller homepage:
 
-![SellerHomePage](/Devansh-new/images%20(1)/Screenshot%20(224).png)
+![SellerHomePage](assets/Screenshot%20(224).png)
 ---
 
 After this, the user is directed to the details page in which he has to enter all the details of the product which he is selling:
 
-![detailsPage](/Devansh-new/images%20(1)/Screenshot%20(225).png)
+![detailsPage](assets/Screenshot%20(225).png)
 ---
 
 After this the user will be directed to the address page:
 
-![addressPage](/Devansh-new/images%20(1)/Screenshot%20(226).png)
+![addressPage](assets/Screenshot%20(226).png)
 ---
 
 After this the user will be directed to the payment page:
 
-![paymentPage](/Devansh-new/images%20(1)/Screenshot%20(227).png)
+![paymentPage](assets/Screenshot%20(227).png)
 ---
 
 There is also an about us page:
 
-![aboutPage](/Devansh-new/images%20(1)/Screenshot%20(233).png)
+![aboutPage](assets/Screenshot%20(233).png)
 ---
 
 And also a contact us page:
 
-![contactUs](/Devansh-new/images%20(1)/Screenshot%20(232).png)
+![contactUs](assets/Screenshot%20(232).png)
 ---
 
 
