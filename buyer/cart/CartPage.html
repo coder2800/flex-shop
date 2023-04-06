@@ -10,33 +10,9 @@
 </head>
 
 <body>
-    <div class="navbar" style="border-radius: 0;">
-        <div class="logo">
-            <img src="../../assets/frontLogo.jpg" alt="Loading..." width="125px">
-        </div>
-        <div class="shopName">
-            <h2>𝓕𝓵𝓮𝔁<br>...𝓢𝓱𝓸𝓹</h2>
-        </div>
-        <div class="container1">
-            <nav>
-                <ul>
-                    <li><a href="../../index/main_page.html" style="color: white;">Home</a></li>
-                    <!-- <li><a href="" style="color: white;">Products</a></li> -->
-                    <li><a href="" style="color: white;">Orders</a></li>
-                    <!-- <li><a href="" style="color: white;">Contact Us</a></li> -->
-                    <li><a href="../profile/profile_page.html" style="color: white;">Profile</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div id="username">
-            <img src="../../assets/ProfileIcon.png" alt="">
-            <div>Username</div>
-        </div>
-        <a href="../cart/CartPage.html"><img class="cart" src="../../assets/cart.png" alt="cart"></a>
-    </div>
-    <!-- ----------------Navigation-Bar over------------------------------------------------------- -->
+    <iframe class="header" src="../../header/header.html" frameborder="0" scrolling="no"></iframe>
     <div class="cart-container" style="background-color: #f2f2f2;">
-        <table>
+        <table id="add-products">
             <tr>
                 <th>Product</th>
                 <th>Quantity</th>
@@ -82,52 +58,43 @@
                 <td>&#8377 15000</td>
             </tr>
         </table>
-
+    </div>
         <!-- --------------------------------table-over-------------------------------------------------------------------- -->
         <!-- ------------------------------------flip-card------------------------------------------------------------ -->
-
-        <div class="flip-card" style="background-color: white;">
+    <div style="display:flex;justify-content:center;">
+        <div class="flip-card">
             <div class="flip-card-inner">
                 <div class="flip-card-front">
-                    <h1 style="font-size: 22px; margin-left: 15%;">Get to know <br> How much to pay</h1>
+                    <h1 style="font-size: 22px; margin-left: 15%;">Get to know <br> How much to pay?</h1>
                     <img src="../../assets/cart-flipFront.png" alt="admire" style="width: 38%;margin-left: 15%;">
                 </div>
-
-                <table class="flip-card-back" id="total">
-                    <tr>
-                        <td>Subtotal:</td>
-                        <td>&#8377 45000</td>
-                    </tr>
-                    <tr>
-                        <td>GST:</td>
-                        <td>&#8377 1500</td>
-                    </tr>
-                    <tr style="border-top: 1px solid orange;position: absolute;margin-top: 10px;margin-left: 25px;">
-                        <td>Total:</td>
-                        <td>&#8377 46500</td>
-                    </tr>
-                    <tr style="position: relative;top:45px;">
-                        <td></td>
-                        <td><a href="../address/Address-page.html">
+                <div class="flip-card-back">
+                    <!-- <h2>Back Side</h2> -->
+                    <table id="total">
+                        <tr>
+                            <td class="tb-col">Subtotal:</td>
+                            <td>&#8377 45000</td>
+                        </tr>
+                        <tr>
+                            <td class="tb-col">GST:</td>
+                            <td>&#8377 1500</td>
+                        </tr>
+                        <tr>
+                            <td class="tb-col">Total:</td>
+                            <td>&#8377 46500</td>
+                        </tr>
+                        <tr style="position: relative;top:45px;">
+                            <td></td>
+                            <td><a href="../address/Address-page.html">
                                 <button form="form1" type="submit" id="Pay">Proceed to Pay &#10142;</button>
                             </a></td>
-                    </tr>
-                </table>
+                        </tr>
+                    </table>
+                </div>
             </div>
         </div>
-
-    </div>
-    <div class="footer">
-
-        <ul>
-            <li><a href="../../footer/about/about.html" style="color: white; font-weight:bold">About</a></li>
-            <li><a href="../../footer/contact/contactdetails.html" style="color: white; font-weight:bold">Contact</a></li>
-            <li><a href="../../footer/privacy/privacy.html" style="color: white; font-weight:bold">Privacy</a></li>
-            <li><a href="../../footer/t&c/terms.html" style="color: white; font-weight:bold">T&C</a></li>
-        </ul>
-
-    </div>
-
+    </div>   
+    <iframe class="footer" src="../../footer/footer.html" frameborder="0" scrolling="no"></iframe>
 </body>
 
 </html>

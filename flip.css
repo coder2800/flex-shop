@@ -1,56 +1,60 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
+body{
+    padding-top: 10%;
+    background-color: pink;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
+/* Flip Card Container */
 .flip-card {
-    background-color: transparent;
-    width: 1100px;
-    height: 400px;
+    background-color: #f1f1f1;
+    width: 30%;
+    height: 300px;
     perspective: 1000px;
-}
-
-.flip-card-inner {
+    border-radius: 20px;
+  }
+  
+  /* Flip Card Inner Container */
+  .flip-card-inner {
     position: relative;
     width: 100%;
     height: 100%;
     text-align: center;
     transition: transform 0.6s;
     transform-style: preserve-3d;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
-.flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-}
-
-.flip-card-front, .flip-card-back {
+  }
+  
+  /* Flip Card Front Side */
+  .flip-card-front, .flip-card-back {
     position: absolute;
     width: 100%;
     height: 100%;
-    -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-}
-
-.flip-card-back {
-    width: 100%;
-    height: 50%;
-}
-
-.flip-card-front {
+    border-radius: 20px;
+    /* display:flex;
+    justify-content: center; */
+  }
+  
+  /* Flip Card Front Side */
+  .flip-card-front {
     background-color: white;
     color: black;
-}
-
-.flip-card-back {
-    background-color: #2980b9;
+  }
+  
+  /* Flip Card Back Side */
+  .flip-card-back {
+    background-color: #555;
     color: white;
     transform: rotateY(180deg);
-}
+  }
+  
+  /* Flip Card Flipped */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+  }
 
-/* ----------------------table-----------------------------------------  */
+  /* ------------------table------------------ */
 
 .flip-card-back {
     display: flex;
@@ -58,13 +62,13 @@ body {
 }
 
 .flip-card-back {
-    background-color: rgb(224, 17, 17);
+    background-color: rgb(169, 101, 101);
     border-radius: 20px;
     /* border-top: 3px solid #ff523b; */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    border: 2px solid orange;
+    /* border: 2px solid orange; */
     width: 100%;
-    border-left: 8px solid orange;
+    /* border-left: 8px solid orange; */
     max-width: 350px;
 }
 
@@ -80,8 +84,6 @@ body {
     padding: 30px;
     padding-top: 30px;
     margin-bottom: 50px;
-    /* display: flex;
-    align-items: center; */
 }
 
 #Pay {
@@ -90,5 +92,9 @@ body {
     cursor: pointer;
     font-size: 15px;
     font-weight: bold;
-    /* margin-left: 100px; */
 }
+
+
+table tr:nth-last-child(2) {
+    border-bottom: 1px solid black;
+  }

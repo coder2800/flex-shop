@@ -10,31 +10,7 @@
 </head>
 
 <body>
-    <div class="navbar" style="border-radius: 0;">
-        <div class="logo">
-            <img src="../../assets/frontLogo.jpg" alt="Loading..." width="125px">
-        </div>
-        <div class="shopName">
-            <h2>𝓕𝓵𝓮𝔁<br>...𝓢𝓱𝓸𝓹</h2>
-        </div>
-        <div class="container1">
-            <nav>
-                <ul>
-                    <li><a href="../../index/main_page.html" style="color: white;">Home</a></li>
-                    <!-- <li><a href="" style="color: white;">Products</a></li> -->
-                    <li><a href="" style="color: white;">Orders</a></li>
-                    <!-- <li><a href="" style="color: white;">Contact Us</a></li> -->
-                    <li><a href="../profile/profile_page.html" style="color: white;">Profile</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div id="username">
-            <img src="../../assets/ProfileIcon.png" alt="">
-            <div>Username</div>
-        </div>
-        <a href="../cart/CartPage.html"><img class="cart" src="../../assets/cart.png" alt="cart"></a>
-    </div>
-    <!-- ----------------Navigation-Bar------------------------------------------------------- -->
+    <iframe class="header" src="../../header/header.html" frameborder="0" scrolling="no"></iframe>
     <div class="container2" style="background-color: white;">
         <div class="card1">
             <div class="card1-row1">
@@ -48,10 +24,10 @@
             </div>
             <div class="card1-row2">
                 <a href="../cart/CartPage.html">
-                    <button class="button">Cart</button>
+                    <button class="button" style="font-weight: bold;">Add to Cart</button>
                 </a>
                 <a href="../address/Address-page.html">
-                    <button class="button">Buy</button>
+                    <button class="button" style="font-weight: bold;">Buy Now</button>
                 </a>
             </div>
         </div>
@@ -157,16 +133,9 @@
             </table>
         </div>
     </div>
-    <div class="footer">
+    <!-- footer -->
+    <iframe class="footer" src="../../footer/footer.html" frameborder="0" scrolling="no"></iframe>
 
-        <ul>
-            <li><a href="../../footer/about/about.html" style="color: white; font-weight:bold">About</a></li>
-            <li><a href="../../footer/contact/contactdetails.html" style="color: white; font-weight:bold">Contact</a></li>
-            <li><a href="../../footer/privacy/privacy.html" style="color: white; font-weight:bold">Privacy</a></li>
-            <li><a href="../../footer/t&c/terms.html" style="color: white; font-weight:bold">T&C</a></li>
-        </ul>
-
-    </div>
     <script>
         document.getElementById('Dbutton').addEventListener('click', function () {
             document.querySelector('.bg-modal').style.display = 'flex';
