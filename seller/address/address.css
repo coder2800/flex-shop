@@ -1,111 +1,40 @@
-* {
-    /* height: 100%;
-    width: 100%; */
-    margin: 0;
+.header {
+    width: 100%;
+    padding:0;
+    margin:0;
     box-sizing: border-box;
+  }
+
+html {
+    scroll-behavior: smooth;
 }
 
-.container {
-    background-image: linear-gradient(to right, brown, rgb(223, 223, 25));
-    border-radius: 0;
-    position: relative;
-    /* display: fixed; */
-}
-
-.container .col-1 {
-    display: flex;
-    /* justify-content: center; */
-}
-
-div {
-    border-radius: 5px;
-    background-color: white;
-    padding: 10px;
-}
-
-.navbar {
-    margin: 5px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 40px;
-    width: 95%;
-    background-image: linear-gradient(to right, #3ab5b0 0%, #3d99be 31%, #724f94 100%);
-    background-repeat: no-repeat;
-    padding: 30px 30px;
-    padding-top: 25px;
-}
-
-.container1 {
-    position: absolute;
-    left: 40%;
-    top: 40%;
-    font-weight: bold;
-}
-
-.shopName {
-    padding: 0px;
-}
-
-.logo {
-    padding: 0 px;
-}
-
-nav {
-    flex: 1;
-    text-align: right;
-}
-
-nav ul {
-    list-style-type: none;
-}
-
-nav ul li {
-    display: inline-block;
-    padding: 0px;
-    margin: 0px;
-    margin-right: 130px;
-}
-
-a {
-    text-decoration: none;
-}
-
-.container1 {
-    max-width: 1000px;
-    margin: 0px;
-    padding: 0px;
-}
-
-#username img {
-    margin-left: 28%;
-    height: 40px;
-}
-
-#username {
-    position: absolute;
-    right: 6%;
-    top: 18px;
-    padding: 0;
+body {
+    /* background-image: linear-gradient(to right, rgb(58 179 177) 0%, #9fc7fc 100%); */
     margin: 0;
+    padding: 0;
+    font-family: Arial;
 }
 
-/* --------------------------------navigation-bar----------------------------------------- */
+/* ----------------------Header-bar over------------------------------------------ */
 
 .bg {
-    position: relative;
+    margin-left:36%;
+    margin-top:7%;
     text-align: center;
     color: white;
-    /* margin: 8px; */
+}
+ 
+
+.bg div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
 }
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    width: 45%;
-    height: 70%;
-    position: absolute;
-    top: 40px;
-    right: 16px;
+    width: 50%;
 }
 
 input[type=text], select {
@@ -129,6 +58,7 @@ input[type=text], select {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 #submit:hover {
@@ -137,7 +67,6 @@ input[type=text], select {
 
 .cvc {
     display: flex;
-    padding: 0px;
 }
 
 label {

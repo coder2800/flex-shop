@@ -10,34 +10,8 @@
 </head>
 
 <body>
-    <div class="navbar" style="border-radius: 0;">
-        <div class="logo">
-            <img src="../../assets/frontLogo.jpg" alt="Loading..." width="125px">
-        </div>
-        <div class="shopName">
-            <h2>𝓕𝓵𝓮𝔁<br>...𝓢𝓱𝓸𝓹</h2>
-        </div>
-        <div class="container1">
-            <nav>
-                <ul>
-                    <li><a href="../../index/main_page.html" style="color: white;">Home</a></li>
-                    <!-- <li><a href="" style="color: white;">Products</a></li> -->
-                    <li><a href="" style="color: white;">Orders</a></li>
-                    <!-- <li><a href="" style="color: white;">Contact Us</a></li> -->
-                    <li><a href="../profile/profile_page.html" style="color: white;">Profile</a></li>
-                </ul>
-            </nav>
-
-        </div>
-        <div id="username">
-            <img src="../../assets/ProfileIcon.png" alt="">
-            <div>Username</div>
-        </div>
-        <a href="../cart/CartPage.html"><img class="cart" src="../../assets/cart.png" alt="cart"></a>
-    </div>
-    <!-- ----------------Navigation-Bar------------------------------------------------------- -->
+    <iframe class="header" src="../../header/header.html" frameborder="0" scrolling="no"></iframe>
     <div class="bg">
-        <img src="../../assets/address.png" style="width:100%;" alt="address">
         <div class="card">
             <h1 style="color: black; margin-bottom: 20px;border-bottom: 0.1px solid;">Give your address</h1>
             <div>
@@ -49,8 +23,8 @@
                         <option value="australia">Australia</option>
                     </select>
                     <input type="text" id="pin" name="pin code" placeholder="Pin Code*" required>
-                    <div class="cvc">
-                        <input type="text" id="date" name="lastname" placeholder="City / District*" required>
+                    <div class="cvc" style="margin:0;padding:0;">
+                        <input style="margin-right: 6px" type="text" id="date" name="lastname" placeholder="City / District*" required>
                         <input type="text" id="cvv" name="lastname" placeholder="State*" required>
                     </div>
                     <input type="text" id="fname" name="town" placeholder="Locality / Town*" required>
