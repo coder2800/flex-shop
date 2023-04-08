@@ -65,8 +65,6 @@ for(var i=0;i<eleSize;i++) {
     pnameElement.setAttribute('name-data',pnames[i]);
     pnameElement.setAttribute('price-data',prices[i]);
 
-    console.log(images[i]);
-
     pnameElement.addEventListener('click', function(){
         const urldata = this.getAttribute('url-data');
         const namedata = this.getAttribute('name-data');
