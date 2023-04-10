@@ -75,3 +75,16 @@ a {
     align-items: center;
     color: white;
 }
+
+#cart-item{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    align-self: center;
+    color: white;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 100%;
+    margin-left: 20px;
+}

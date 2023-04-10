@@ -67,6 +67,10 @@ th a {
     /* font-size: 12px; */
 }
 
+th a:hover{
+    cursor: pointer;
+}
+
 th img {
     height: 150px;
     margin-right: 10px;
@@ -163,9 +167,12 @@ table p {
 #Pay {
     padding: 15px;
     border-radius: 25px;
-    cursor: pointer;
     font-size: 15px;
     font-weight: bold;
+}
+
+#Pay:hover{
+    cursor: pointer;
 }
 
 .flip-card{

@@ -26,6 +26,14 @@ if(cartItems){
 
         const removeitem = document.createElement('a');
         removeitem.textContent = 'Remove from Cart';
+        removeitem.addEventListener('click', function() {
+            removeFromStorage(item);
+            updateCartOnClickRemoveFromCart();
+            row.remove();
+            updateCartTotal();
+            // if
+          });
+
         namecontainer.appendChild(removeitem);     
         
         const tdElement = document.createElement('td');
@@ -42,4 +50,61 @@ if(cartItems){
 
         cartContainer.appendChild(row);
     })
+}
+
+var cartCount,cartSize;
+
+window.onload = function() {
+    var getCartItems = JSON.parse(localStorage.getItem('cart'));
+    cartSize = getCartItems.length;
+    if(getCartItems && cartSize != null){
+        var iframe = document.getElementsByClassName('header')[0];
+        var innerDoc = iframe.contentDocument || iframe.contentWindow.document;
+        cartCount = innerDoc.getElementById('cart-item');
+        cartCount.innerHTML = cartSize;
+    }
+  }
+
+function updateCartTotal() {
+    var subtotal = document.getElementById('subtotal');
+    var gst = document.getElementById('gst');
+    var total = document.getElementById('totalprice');
+    var payButton = document.getElementById('Pay');
+
+    if(cartItems && cartItems.length > 0){
+        let sum = 0, gstPrice = 2000;
+        if(cartItems){
+            cartItems.forEach(item =>{
+                sum += parseInt(item['price']);
+                console.log(typeof(item['price']));
+            })
+        }
+        var tp = sum + gstPrice;
+        subtotal.innerHTML = "&#8377 " + sum.toString();
+        gst.innerHTML = "&#8377 " + gstPrice.toString();
+        total.innerHTML = "&#8377 " + tp.toString();
+    }
+    else{
+        subtotal.innerHTML = "0";
+        gst.innerHTML = "0";
+        total.innerHTML = "Nothing to Pay";
+        payButton.disabled = true;
+    }
+
+};
+
+updateCartTotal();
+
+function removeFromStorage(item) {
+    const index = cartItems.indexOf(item);
+    if(index > -1) {
+      cartItems.splice(index, 1);
+      localStorage.setItem('cart', JSON.stringify(cartItems));
+    }
+  }
+
+function updateCartOnClickRemoveFromCart() {
+    var getCartItems = JSON.parse(localStorage.getItem('cart'));
+    cartSize = getCartItems.length;
+    cartCount.innerHTML = cartSize;
 }
