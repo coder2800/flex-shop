@@ -91,11 +91,10 @@ And also a contact us page:
 
 and many more pages...
 
-### Working on backend
+### Backend - 
 ---
 
-We have done authentication of users through backend like if a user didn't have an sign up earlier then, the user needs to sign up first as seen in frontend.
-After that the user will get token to access the pages.
+The website has an authentication mechanism wherein new users have to create an account and existing users have to login. On performing this the user will be given a token to access further pages.
 
 For doing this, we require some npm modules like:<br><br>
 -> express<br>
@@ -103,9 +102,3 @@ For doing this, we require some npm modules like:<br><br>
 -> Jwt (Jsonwebtoken)<br>
 -> bcrypt<br> 
 -> postgresql <br>
-
-bcrypt is used to hashing the password and store it into database.
-
-
-
-
